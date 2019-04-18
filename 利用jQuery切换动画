@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta charset="utf-8">
+    <title>切换动画</title>
+    <link rel="stylesheet" href="jquery/jquery.mobile-1.5.0-rc1.css">
+    <script type="text/javascript" src="jquery/jquery-3.4.0.min.js"></script>
+    <script type="text/javascript" src="jquery/jquery-1.5.0-rc1.mobile"></script>
+    <link href="jquery.mobile/jquery.mobile-1.4.5.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="jquery.mobile/jquery-1.12.2.min.js"></script>
+    <script type="text/javascript" src="jquery.mobile/jquery.mobile-1.4.5.js"></script>
+  </head>
+  <body>
+  <div data-role="page" id="home"data-them="a">
+      <div data-role="header" >
+          <h1>页面布局</h1>
+      </div>
+      <div data-role="content">
+        <a href="#index1" data-role="button">默认</a>
+        <!-- 默认定义方式 -->
+        <a href="#index1" data-role="button" data-transition="fade" data-direction="reverse">渐显</a>
+        <!-- 定义方式为渐显 -->
+        <a href="#index1" data-role="button" data-transition="pop" data-direction="reverse">扩散</a>
+        <!-- 定义方式为扩散 -->
+        <a href="#index1" data-role="button" data-transition="flip" data-direction="reverse">展开</a>
+        <!-- 定义方式为展开 -->
+        <a href="#index1" data-role="button" data-transition="turn" data-direction="reverse">翻转覆盖</a>
+        <!-- 定义为翻转覆盖 -->
+        <a href="#index1" data-role="button" data-transition="flow" data-direction="reverse">扩散覆盖</a>
+        <!-- 定义为扩散覆盖 -->
+        <a href="#index1" data-role="button" data-transition="slidefade" data-direction="reverse">滑动渐显</a>
+        <!-- 定义为滑动渐显 -->
+        <a href="#index1" data-role="button" data-transition="slidedown" data-direction="reverse">向下滑动</a>
+        <!-- 定义为向下滑动 -->
+        <a href="#index1" data-role="button" data-transition="slideup" data-direction="reverse">向上滑动</a>
+        <!-- 定义为向上滑动 -->
+        <a href="#index1" data-role="button" data-transition="none" data-direction="reverse">无动画</a>
+        <!-- 定义为无动画 -->
+      </div>
+      <div data-role="footer">
+
+      </div>
+  </div>
+    <div data-role="page" id="index1">
+        <div data-role="header">
+            <h1>Seriously cross-platform with HTML5</h1>
+        </div>
+        <div data-role="content">
+        	<p><img src="meigui.jpg" style="width:100%" alt=""/></p>
+            <p>jQuery Mobile framework takes the "write less, do more" mantra to the next level: Instead of writing unique applications for each mobile device or OS, the jQuery mobile framework allows you to design a single highly-branded responsive web site or application that will work on all popular smartphone, tablet, and desktop platforms.</p>
+        </div>
+        <div data-role="footer">
+            <h4>©2016 jm.cn studio</h4>
+        </div>
+    </div>
+  </body>
+</html>
