@@ -25,6 +25,12 @@
 
     </div>
 </div>
-
+//弹出图片设置
+ <a href="#pic" data-transition="fade" data-rel="popup" data-position-to="window">
+          <img src="meigui.jpg" style="width:30%" alt="">
+      </a>
+      <div id="pic" data-role="popup" data-theme="c" data-corners="false" data-overlay-theme="b">
+          <img src="meigui.jpg" alt="" style="width:100%">
+      </div>
   </body>
 </html>
