@@ -1,0 +1,30 @@
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link href="jquery.mobile/jquery.mobile-1.4.5.css" rel="stylesheet" type="text/css">
+    <script src="jquery.mobile/jquery-1.12.2.min.js"></script>
+    <script type="text/javascript" src="jquery.mobile/jquery.mobile-1.4.5.js"></script>
+  </head>
+  <body>
+    <div data-role="page">
+    <div data-role="header">
+        <h1>定义弹出菜单</h1>
+    </div>
+    <div data-role="content">
+        <a class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-icon-gear ui-btn-icon-left ui-btn-a" href="#popupMenu" data-transition="slideup" data-rel="popup">弹出菜单</a>
+        <div id="popupMenu" data-role="popup" data-theme="b">
+                <ul style="min-width: 210px;" data-role="listview" data-inset="true">
+                    <li data-role="list-divider">选择命令</li>
+                    <li><a href="page1.html" rel="external">查看代码</a></li><!--在链接中加入rel="external"即可添加外部链接-->
+                    <li><a href="#">编辑</a></li>
+                    <li><a href="#">禁用</a></li>
+                    <li><a href="#">删除</a></li>
+                </ul>
+        </div>
+
+    </div>
+</div>
+
+  </body>
+</html>
